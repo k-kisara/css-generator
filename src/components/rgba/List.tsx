@@ -35,8 +35,8 @@ const Component: React.FC = () => {
         <>
             <div style={styles.pallete}>
                 {Object.keys(color).map(item => (
-                    <p>
-                        {item}: <input key={item} name={item} type='number' onChange={onChangeProperty} />
+                    <p key={item}>
+                        {item}: <input name={item} type='number' onChange={onChangeProperty} />
                     </p>
                 ))}
             </div>
