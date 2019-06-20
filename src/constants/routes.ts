@@ -1,7 +1,8 @@
 const routes = {
-    dashboard: '/',
-    rgba: '/rgba',
-    borderRadius: '/border-radius'
+  dashboard: '/dashboard',
+  rgba: '/rgba',
+  textShadow: '/text-shadow',
+  borderRadius: '/border-radius'
 };
 
 export default routes;
